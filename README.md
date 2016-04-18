@@ -6,7 +6,7 @@ This allows the user to close the window without having to save beforehand, or h
 Use git to make a commit, write the commit message using Sublime Text, and close the window without saving.
 If you wish to abort the commit, delete the message before closing the window.
 
-If you don't have Sublime Text setup as your default git editor, follow these [instructions](https://help.github.com/articles/associating-text-editors-with-git/#using-sublime-text-as-your-editor).
+If you don't have Sublime Text configured as your default git editor, follow these [instructions](https://help.github.com/articles/associating-text-editors-with-git/#using-sublime-text-as-your-editor).
 
 
 ##Install
