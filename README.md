@@ -2,18 +2,19 @@
 Sublime Text 3 plugin to save git commit messages automatically when the message window is closed.
 It allows you to close the commit message window without having to save beforehand, or having to deal with the "Save File" popup.
 
+##Usage
+Use git to make a commit, write the commit message using Sublime Text, and close the window without saving.
+If you wish to abort the commit, delete the message before closing the window.
+
+If you don't have Sublime Text configured as your default git editor, follow these [instructions](https://help.github.com/articles/associating-text-editors-with-git/#using-sublime-text-as-your-editor).
+
+
 ##Rationale
 I use [GitSavvy](https://github.com/divmain/GitSavvy) to do most of my git stuff in Sublime Text. However I still use git from the command line to do other things quite often.
 Since I still have to `save` when using git from the command line, I keep inserting accidental signatures when using GitSavvy, since the shortcuts are the same and muscle memory.
 This is an attempt to prevent that from happening, by bringing the editing experience of normal git cli and GitSavvy closer together.
 
 The plugin is extremely small, and in only active on commit messages. To make GitSavvy commit on close like git cli, set `"commit_on_close": true` in your GitSavvy preferences.
-
-##Usage
-Use git to make a commit, write the commit message using Sublime Text, and close the window without saving.
-If you wish to abort the commit, delete the message before closing the window.
-
-If you don't have Sublime Text configured as your default git editor, follow these [instructions](https://help.github.com/articles/associating-text-editors-with-git/#using-sublime-text-as-your-editor).
 
 
 ##Install
