@@ -9,9 +9,9 @@ import sublime_plugin
 
 class GitCommitAutoSave(sublime_plugin.EventListener):
 	def on_load(self, view):
-		if view.file_name().endswith('COMMIT_EDITMSG'):
+		if view.file_name() and view.file_name().endswith('COMMIT_EDITMSG'):
 			view.set_scratch(True)  # disable save file dialog on exit
 
 	def on_pre_close(self, view):
-		if view.file_name().endswith('COMMIT_EDITMSG'):
+		if view.file_name() and view.file_name().endswith('COMMIT_EDITMSG'):
 			view.run_command("save")
