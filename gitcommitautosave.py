@@ -9,9 +9,15 @@ import sublime_plugin
 
 class GitCommitAutoSave(sublime_plugin.EventListener):
 	def on_load(self, view):
-		if view.file_name() and view.file_name().endswith('COMMIT_EDITMSG'):
+		if is_git_file(view.file_name()):
 			view.set_scratch(True)  # disable save file dialog on exit
 
 	def on_pre_close(self, view):
-		if view.file_name() and view.file_name().endswith('COMMIT_EDITMSG'):
+		if is_git_file(view.file_name()):
 			view.run_command("save")
+
+
+def is_git_file(path):
+	git_files = ('COMMIT_EDITMSG', 'git-rebase-todo')
+	if path and any(path.endswith(name) for name in git_files):
+		return True
