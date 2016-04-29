@@ -1,6 +1,6 @@
-#Sublime Git Commit Message Auto Save
-Sublime Text 3 plugin to save git commit messages automatically when the message window is closed.
-It allows you to close the commit message window without having to save beforehand, or having to deal with the "Save File" popup.
+#Sublime Git Message Auto Save
+Sublime Text 3 plugin to autosave git messages for commit/rebase/rtc when the sublime window is closed.
+It allows you to close the git message window without having to save beforehand, or having to deal with the "Save File" popup.
 
 ##Usage
 Use git to make a commit, write the commit message using Sublime Text, and close the window without saving.
