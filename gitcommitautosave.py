@@ -18,6 +18,6 @@ class GitCommitAutoSave(sublime_plugin.EventListener):
 
 
 def is_git_file(path):
-	git_files = ('COMMIT_EDITMSG', 'git-rebase-todo')
+	git_files = ('COMMIT_EDITMSG', 'git-rebase-todo', 'MERGE_MSG')
 	if path and any(path.endswith(name) for name in git_files):
 		return True
