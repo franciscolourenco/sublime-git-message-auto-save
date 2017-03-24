@@ -3,7 +3,7 @@
 <p>
   <img src="https://img.shields.io/github/release/aristidesfl/sublime-git-message-auto-save.svg" alt="Release version">
   <img src="https://img.shields.io/badge/stability-stable-green.svg" alt="Stability: Stable">
-  <img src="https://img.shields.io/packagecontrol/dm/Package%20Control.svg" alt="Package Control">
+  <img src="https://img.shields.io/packagecontrol/dm/Git%20Message%20Auto%20Save.svg" alt="Package Control">
   <img src="https://img.shields.io/badge/license-MIT-lightgray.svg" alt="License: MIT">
 </p>
 
