@@ -33,5 +33,5 @@ To install via Package Control, do the following:
 
 1. Within Sublime Text, bring up the [Command Palette](http://docs.sublimetext.info/en/sublime-text-3/extensibility/command_palette.html) and type `install`. Among the commands you should see `Package Control: Install Package`. If that command is not highlighted, use the keyboard or mouse to select it. There will be a pause of a few seconds while Package Control fetches the list of available plugins.
 
-1. When the package list appears, type `git commit`. Among the entries you should see `Git Commit Message Auto Save`. If that entry is not highlighted, use the keyboard or mouse to select it.
+1. When the package list appears, type `git commit`. Among the entries you should see `Git Message Auto Save`. If that entry is not highlighted, use the keyboard or mouse to select it.
 
